@@ -3,12 +3,12 @@ entries:
   schedule-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-10T10:23:16.822412617+02:00"
+    created: "2023-12-10T10:42:51.924793911+02:00"
     description: A Helm chart for Kubernetes
     digest: 4f80967e0a28cf6332416ed557cba63c5d9061fb9ef36e8f896378b5d1432f16
     name: schedule-app
     type: application
     urls:
-    - schedule-app-0.1.0.tgz
+    - https://github.com/Vitalikys/chart.git/schedule-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-10T10:23:16.820682407+02:00"
+generated: "2023-12-10T10:42:51.924023753+02:00"

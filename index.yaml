@@ -9,6 +9,6 @@ entries:
     name: schedule-app
     type: application
     urls:
-    - https://github.com/Vitalikys/chart.git/schedule-app-0.1.0.tgz
+      - https://raw.githubusercontent.com/Vitalikys/chart/master/schedule-app-0.1.0.tgz
     version: 0.1.0
 generated: "2023-12-10T10:42:51.924023753+02:00"

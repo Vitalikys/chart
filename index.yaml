@@ -1,3 +1,12 @@
 apiVersion: v1
-entries: {}
+entries: 
+  schedule-app:
+   apiVersion: v2
+   appVersion: "1.16.0"
+   created: "2023-12-10T09:37:50.316801676+02:00"
+   description: "schedule application Green Team"
+   name: schedule-app
+   version: 0.1.0
+   type: application
+
 generated: "2023-12-10T09:37:50.316801676+02:00"

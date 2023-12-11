@@ -23,21 +23,15 @@ spec:
         - containerPort: 8080
         env:
         - name: "PG_HOST"
-          value: "10.155.70.3"
+          value: {{ .Values.PG_HOST }}
         - name: "PG_PORT"
           value: "5432"
         - name: "PG_DB_NAME"
           value: "postgres"
         - name: "PG_USER"
-          valueFrom:
-            secretKeyRef:
-              name: pg-user-pass
-              key: username
+          value: "schedule"
         - name: "PG_PASS"      
-          valueFrom:
-            secretKeyRef:
-              name: pg-user-pass
-              key: password
+          value: {{ .Values.PG_PASS }}
         - name: "REDIS_HOST"
           value: "localhost"
         - name: "REDIS_PORT"

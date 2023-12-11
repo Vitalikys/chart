@@ -3,12 +3,32 @@ entries:
   schedule-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-10T10:42:51.924793911+02:00"
-    description: A Helm chart for Kubernetes
-    digest: 4f80967e0a28cf6332416ed557cba63c5d9061fb9ef36e8f896378b5d1432f16
+    created: "2023-12-11T03:00:13.882896342+02:00"
+    description: A Helm chart, add first Vars
+    digest: c5fae914b633534a3da6e4495b1c70d38c0a9fbe5ec74e0abfdedff73b00711f
     name: schedule-app
     type: application
     urls:
-      - https://raw.githubusercontent.com/Vitalikys/chart/master/schedule-app-0.1.0.tgz
+    - schedule-app-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-11T03:00:13.877173424+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 9a70cd5568f289bf35fadeb3d8fe7642154b78a706e146b59ff17481145b5d16
+    name: schedule-app
+    type: application
+    urls:
+    - schedule-app-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-11T03:00:13.872461504+02:00"
+    description: A Helm chart for Kubernetes
+    digest: f21b7f16782c1c0cc9462c2425c0a34ddad2aa33590336322faad8e430b38437
+    name: schedule-app
+    type: application
+    urls:
+    - schedule-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-10T10:42:51.924023753+02:00"
+generated: "2023-12-11T03:00:13.8701564+02:00"
